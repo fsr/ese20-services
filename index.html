@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <title>ESE Link Page</title>
+</head>
+
+<body>
+    <div class="container-lg mt-md-4">
+        <div class="row">
+            <main class="col-md-9 mr-auto ml-auto">
+                <div class="col-md-4 mx-auto mt-3 mb-5">
+                    <img src="logo.svg" width="100%">
+                </div>          
+                <div class="row">
+                    <div class="col-md-4 mb-4 pl-3 pr-3">
+                        <div class="card mb-4 border-secondary">
+                            <h3 class="card-header">Streaming</h3>
+                            <div class="list-group list-group-flush">
+                                <a class="list-group-item" href="https://stream.ese.ifsr.de">Main Stream</a>
+                                <a class="list-group-item" data-toggle="modal" href="#bbbModal">Big Blue Button</a>
+                            </div>
+                        </div>
+                        <div class="card border-secondary">
+                            <h3 class="card-header">Web Pages</h3>
+                            <div class="list-group list-group-flush">
+                                <a class="list-group-item" href="https://ese.ifsr.de">ESE Web Page</a>
+                                <a class="list-group-item" href="https://status.ese.ifsr.de">Status Page</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4 pl-3 pr-3">
+                        <div class="card border-secondary">
+                            <h3 class="card-header">Communication</h3>
+                            <div class="list-group list-group-flush">
+                                <a class="list-group-item" data-toggle="modal" href="#matrixModal">Central ESE Chat</a>
+                                <a class="list-group-item" data-toggle="modal" href="#jitsiModal">Jitsi Meet</a>
+                                <a class="list-group-item" data-toggle="modal" href="#tsModal">TeamSpeak</a>
+                                <a class="list-group-item" data-toggle="modal" href="#mumbleModal">Mumble</a>
+                                <a class="list-group-item" href="https://chat.ese.ifsr.de">WebIRC Chat</a>
+                                <a class="list-group-item" data-toggle="modal" href="#suppModal">Tech Support</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4 pl-3 pr-3">
+                        <div class="card border-secondary">
+                            <h3 class="card-header">Events</h3>
+                            <div class="list-group list-group-flush">
+                                <a class="list-group-item" href="https://kurse.ifsr.de">Course System</a>
+                                <a class="list-group-item" href="https://distribute.ese.ifsr.de">Jitsi Roulette</a>
+                                <a class="list-group-item" data-toggle="modal" href="#minetestModal">Minetest</a>
+                                <a class="list-group-item" href="https://schnitzeljagd.ese.ifsr.de/">Scavenger Hunt</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <footer class="col-md-4 text-center text-muted mx-auto mb-3">
+                    FSR Informatik 2020
+                    <br>
+                    <a href="#" class="text-reset">en</a> | <a href="#" class="text-reset">de</a>
+                </footer>
+            </main>
+
+
+            <div class="modal fade" id="bbbModal" tabindex="-1" aria-labelledby="bbbModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="bbbModalLabel">Big Blue Button</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            The Big Blue Button instance we will use throughout the First Semester Introduction week is kindly hosted by the <a href="https://agdsn.de">AG DSN</a>. You can find the links to the relevant rooms on the Check-In page.
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            <a class="btn btn-primary" href="https://ese.ifsr.de/2020/checkin/">Check-In</a>
+                          </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal fade" id="minetestModal" tabindex="-1" aria-labelledby="minetestModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="minetestModalLabel">Minetest</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            The Minetest instance will only be used on <a href="https://ese.ifsr.de/2020/program/">Friday</a> for the ESE Game. Make sure you are prepared for this event by following the instructions on the Check-In page. The server address to connect will also be listed there.
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            <a class="btn btn-primary" href="https://ese.ifsr.de/2020/checkin/">Check-In</a>
+                          </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal fade" id="jitsiModal" tabindex="-1" aria-labelledby="jitsiModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="jitsiModalLabel">Jitsi</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            We operate two Jitsi Meet instances on <a href="https://meet0.ese.ifsr.de">meet0.ese.ifsr.de</a> and <a href="https://meet1.ese.ifsr.de">meet1.ese.ifsr.de</a>. You can use them to talk to fellow students throughout the First Semester Introduction week using video, but they will have their prominent appearance at the speedfriending event on Monday. More Information can be found on the Check-In page.
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            <a class="btn btn-primary" href="https://ese.ifsr.de/2020/checkin/">Check-In</a>
+                          </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal fade" id="tsModal" tabindex="-1" aria-labelledby="tsModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="tsModalLabel">TeamSpeak</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            We are operating a TeamSpeak instance that can be reached under <code>ts.ese.ifsr.de</code>. You can use it to talk to fellow students throughout the First Semester Introduction week. To use this service you will have to install the <a href="https://teamspeak.com/en/">TeamSpeak client</a>.
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            <a class="btn btn-primary" href="ts3server://ts.ese.ifsr.de">Connect</a>
+                          </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal fade" id="mumbleModal" tabindex="-1" aria-labelledby="mumbleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="mumbleModalLabel">Mumble</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            We are operating a Mumble instance that can be reached under <code>pet.ifsr.de</code>. You can use it to talk to fellow students throughout the First Semester Introduction week, but it will have it's most prominent appearance during the ESE Game on Fridya. You can find more information on the Check-In page. To use this service you will have to install the <a href="https://www.mumble.info/">Mumble client</a>.
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            <a class="btn btn-primary" href="ts3server://ts.ese.ifsr.de">Connect</a>
+                          </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal fade" id="matrixModal" tabindex="-1" aria-labelledby="matrixModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="matrixModalLabel">Central ESE Chat</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <p>
+                                The Matrix room <code>#ese2020:matrix.ifsr.de</code> is the central chat room you can use to communicate with fellow first semester students or ask tutors questions. You can join using your TU Dresden Matrix account by clicking the <em>Join</em> button below.
+                            </p>
+
+                            <p>
+                                <em>What is Matrix?</em>
+                                Matrix is a distributed open-source messaging application that offers similar features like Slack (plus encrypted chats!). Using a single account, users can interact with and join rooms on different other servers. To learn more, visit <a href="https://matrix.org/">matrix.org</a>.
+                            </p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            <a class="btn btn-primary" href="https://matrix.tu-dresden.de/#/room/#ese2020:matrix.ifsr.de">Join</a>
+                          </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal fade" id="suppModal" tabindex="-1" aria-labelledby="suppModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="suppModalLabel">Central ESE Chat</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <p>
+                                The Matrix room <code>#ese2020-techsupport:matrix.ifsr.de</code> is a chat room where you can ask questions regarding technical issues throughout the introduction week. You can join using your TU Dresden Matrix account by clicking the <em>Join</em> button below.
+                            </p>
+
+                            <p>
+                                <em>What is Matrix?</em>
+                                Matrix is a distributed open-source messaging application that offers similar features like Slack (plus encrypted chats!). Using a single account, users can interact with and join rooms on different other servers. To learn more, visit <a href="https://matrix.org/">matrix.org</a>.
+                            </p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            <a class="btn btn-primary" href="https://matrix.tu-dresden.de/#/room/#ese2020-techsupport:matrix.ifsr.de">Join</a>
+                          </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/jquery-3.5.1.slim.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
